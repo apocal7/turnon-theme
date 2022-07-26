@@ -1,0 +1,38 @@
+.navigation-container {
+  .select-kit.combo-box {
+    .select-kit-header {
+      border-radius: 6px;
+      background-color: #ffffff;
+    }
+  }
+}
+
+.badge-category-bg {
+    border-radius: 4px;
+}
+
+.discourse-tag.box[data-tag-name="perku"] {
+    background-color: #e9b40a!important;
+    color: #FFFFFF !important;
+    border-radius: 4px !important;
+    text-transform: capitalize;
+}
+
+
+.discourse-tag.box[data-tag-name="parduodu"] {
+    background-color: #388f1f !important;
+    color: #FFFFFF !important;
+    border-radius: 4px !important;
+    text-transform: capitalize;
+}
+
+.discourse-tag.box[data-tag-name="keičiu"] {
+    background-color: #DB681B !important;
+    text-transform: capitalize;
+    color: #FFFFFF !important;
+    border-radius: 4px !important;
+}
+
+
+ 
+
