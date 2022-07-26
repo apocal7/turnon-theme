@@ -1,0 +1,17 @@
+<script type="text/discourse-plugin" version="0.8">
+const { iconNode } = require("discourse-common/lib/icon-library");
+let currentUser = api.getCurrentUser();
+let icon = 'admin-icon';
+if (currentUser && !currentUser.admin) {
+  icon = 'home-svgrepo-com';
+}
+api.decorateWidget('header-icons:before', helper => {
+return helper.h('li', [
+    helper.h('a#home-button', {
+        href:'https://Example2.com',
+        title: 'Button 2'
+    }, iconNode(icon)),
+]);
+});
+}
+</script>
