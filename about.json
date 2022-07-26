@@ -4,12 +4,12 @@
   "license_url": null,
   "about_url": null,
   "authors": null,
-  "theme_version": "v1.0.3",
+  "theme_version": "v1.5",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
     "icolab": "assets/icolab.png",
-    "home-svgrepo-com": "assets/home-svgrepo-com.svg"
+    "icons-sprite": "assets/sprite.svg"
   },
   "color_schemes": {
     "turnon": {
